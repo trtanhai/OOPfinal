@@ -1,0 +1,11 @@
+CREATE TABLE studentManage (
+	stt int NOT NULL AUTO_INCREMENT,
+	hoten VARCHAR(100),
+	sotinchi VARCHAR(15),
+	sosvdanghoc VARCHAR(40),
+	ngayketthuc VARCHAR(60),
+	ngaymo VARCHAR(60),
+    diem DOUBLE,
+	PRIMARY KEY (stt)
+);
+
